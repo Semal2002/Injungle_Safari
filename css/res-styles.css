@@ -1,0 +1,147 @@
+
+*{
+    font-family:'poppins', sans-serif;
+    font: size 10px;
+    font-weight: 100;
+    transition: all .2s ease-in;
+}
+.body{
+    display: flex;
+    flex-direction: column;
+}
+.form-section{
+     background-image:url("../images/safari3.jpg");
+     background-repeat: no-repeat;
+}
+header{
+    justify-content: center;
+    display: flex;
+    color: #fff;
+    font-size:53px;;
+    text-align: center;
+    padding: 10px 0 30px 0;
+}
+.form-wrapper {
+    background: rgba(39,39,39,0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3rem;
+}
+
+.input-box{
+    position: relative;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:512px;
+    margin-top: 1rem;
+    
+}
+.input-box i{
+    position:absolute;
+    right:100%;
+    
+
+}
+
+input[type=text]{
+   
+    border-radius:10px;
+    background: rgba(255,255,255,0.3);
+    color:black;
+    margin:10px;
+    width:100%;
+    height:50px;
+    margin-left: 0px;
+    padding:0 10px 0 45px;
+}
+::placeholder{
+    color:black;
+}
+input[type=tel]{
+    border-radius:10px;
+    background: rgba(255,255,255,0.3);
+    color:black;
+    margin:10px;
+    width:100%;
+    height:50px;
+    margin-left: 0px;
+    padding:0 10px 0 45px;
+    
+}
+
+
+input[type= number]{
+    border-radius:10px;
+    width: 150px;
+    height:50px;
+    max-width:40%;
+    margin: 10px;
+    margin-right:5%;
+    margin-left: 1%;
+    background: rgba(255,255,255,0.3);
+    
+}
+
+select{
+    border-radius:10px;
+    width: 200px;
+    height:50px;
+    max-width:40%;
+    margin: 10px;
+    margin-right:6%;
+    background: rgba(255,255,255,0.3);
+    
+}
+
+select:hover{
+    cursor: pointer;
+}
+
+
+input[type=submit]{
+    margin-top: 1rem;
+    border-radius:10px;
+    min-width:40%;
+    height:50px;
+    background: rgba(255,255,255,0.4);
+
+}
+
+
+input[type=submit]:hover{
+cursor: pointer;
+transform: scale(1.05);
+
+}
+
+.search-section{
+    background-image: url('safari3.jpg');
+}
+
+.search-wrapper{
+
+    background: rgba(39,39,39,0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.button-box{
+    display: flex;
+    flex-direction: row;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    justify-content: space-around;
+}

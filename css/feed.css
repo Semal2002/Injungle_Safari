@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1b1c1e;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: aliceblue;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 120px;
+    resize: none;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+input[name="update"] {
+    background-color: #0080ff;
+}
+
+input[name="delete"] {
+    background-color: #ff2d2d;
+}
+
+input[name="submit"]:hover {
+    background-color: #45a049;
+}
+
+input[name="update"]:hover {
+    background-color: #0071e2;
+}
+
+input[name="delete"]:hover {
+    background-color: #db1919;
+}
+
+.buttons a {
+    display: inline-block;
+}
